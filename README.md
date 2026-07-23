@@ -12,6 +12,7 @@ de chocolate da Dona Nena, na Ilha do Combu).
 ## Como rodar
 
 1. Pré-requisitos
+
 Antes de começar, certifique-se de ter instalado:
 
 Python (versão 3.10 ou superior)
@@ -21,6 +22,7 @@ Git (para clonar o repositório)
 O gerenciador de pacotes uv (recomendado para gerenciar as dependências do projeto)
 
 2. Clonando o Repositório
+
 Abra o seu terminal (Prompt de Comando, PowerShell ou o terminal do VS Code) e execute os comandos abaixo:
 
 ```bash
@@ -28,6 +30,7 @@ git clone https://github.com/rafaelribmrs/ilha-do-combu.git
 cd ilha-do-combu
 ```
 3. Executando o Jogo
+
 O projeto utiliza o uv para gerenciar os pacotes (como o pygame-ce) de forma integrada. Você pode rodar o jogo diretamente com um único comando:
 
 ```bash
