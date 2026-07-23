@@ -24,7 +24,7 @@ O gerenciador de pacotes uv (recomendado para gerenciar as dependências do proj
 Abra o seu terminal (Prompt de Comando, PowerShell ou o terminal do VS Code) e execute os comandos abaixo:
 
 ```bash
-git clone https://github.com/seu-usuario/ilha-do-combu.git
+git clone https://github.com/rafaelribmrs/ilha-do-combu.git
 cd ilha-do-combu
 ```
 3. Executando o Jogo
