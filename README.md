@@ -11,12 +11,29 @@ de chocolate da Dona Nena, na Ilha do Combu).
 
 ## Como rodar
 
-Pre-requisitos: [uv](https://docs.astral.sh/uv/).
+1. Pré-requisitos
+Antes de começar, certifique-se de ter instalado:
+
+Python (versão 3.10 ou superior)
+
+Git (para clonar o repositório)
+
+O gerenciador de pacotes uv (recomendado para gerenciar as dependências do projeto)
+
+2. Clonando o Repositório
+Abra o seu terminal (Prompt de Comando, PowerShell ou o terminal do VS Code) e execute os comandos abaixo:
 
 ```bash
-uv sync
-uv run ilha-do-combu
+git clone https://github.com/seu-usuario/ilha-do-combu.git
+cd ilha-do-combu
 ```
+3. Executando o Jogo
+O projeto utiliza o uv para gerenciar os pacotes (como o pygame-ce) de forma integrada. Você pode rodar o jogo diretamente com um único comando:
+
+```bash
+uv run python src/ilha_do_combu/__main__.py
+```
+Nota: O uv criará o ambiente virtual e instalará o pygame-ce automaticamente na primeira execução.
 
 ## Controles
 
