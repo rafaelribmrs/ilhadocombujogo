@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Ambiente uv
+.venv/
+
+# Imagens geradas pelos scripts de preview
+preview_art.png
+shot_*.png
+tools/*.png
+icon_src.png
+
+# Config local do Claude Code
+.claude/
+
+# SO / editores
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
